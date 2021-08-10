@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<title>playground scum server</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button">playground scum server</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="https://discord.gg/28nEmjAu" class="w3-bar-item w3-button">FullTimeModding</a>
+                <a href="#gallery" class="w3-bar-item w3-button">Gallery</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+                <a href="#music" class="w3-bar-item w3-button">Music</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="https://wallpaperaccess.com/full/4242512.jpg" alt="Scum Wallpapers - Top Free Scum Backgrounds - WallpaperAccess" width="1500" height="400">
+        <div class="w3-display-middle w3-margin-top w3-center"></div>
+    </header>
+
+    <!-- Page content -->
+        <iframe width="1350" height="500" src="https://www.youtube.com/embed/nXNeZFUoJxA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+        <div class="w3-content w3-padding" style="max-width:1564px">
+        <div class="w3-container w3-padding-32" id="music">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">music</h3>
+        </div>
+
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="Screenshots">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">submit your Screenshots</h3>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="example https://www.gamegrin.com/assets/games/scum/screenshots/_resampled/SetWidth800-scum-screenshot-0.jpg" required name="Screenshot">
+                    <p>
+                    <i class="fa fa-paper-plane"></i> hit the enter key to send your Screenshot.<br>
+                    and have it add to the Screenshot gallery
+                    </p>
+                </button>
+            </form>
+        </div>
+
+        <div class="w3-container w3-padding-32" id="Gallery">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Gallery</h3>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">placeholder screenshot</div>
+                    <img src="https://www.gamegrin.com/assets/games/scum/screenshots/_resampled/SetWidth800-scum-screenshot-0.jpg" alt="SCUM - Images &amp;amp; Screenshots | GameGrin" style="width:100%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">placeholder screenshot</div>
+                    <img src="https://i.redd.it/qbxvwonnzem11.jpg" alt="Took This Screenshot. (SCUM + Photoshop = New Desktop Background) Feel free  to use for yourself.: SCUMgame" style="width:100%">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">placeholder screenshot</div>
+                    <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/clans/27012442/2e3500e990a2dbd836f5d1473af60b904745d228.jpg" alt="SCUM - Screenshot time!! - Steam News" style="width:99%">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">placeholder screenshot</div>
+                    <img src="https://www.dsogaming.com/wp-content/uploads/2018/08/SCUM-new-4.jpg" alt="New beautiful screenshots released for SCUM" style="width:99%">
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Image of location/map -->
+        <div class="w3-container">
+            <p> map location of important places and safe zones </p>
+            <img src="https://www.scumdb.com/wp-content/uploads/2020/08/scum-bunkers-map.png" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 394.154px; height: 427px; margin: 0px;">
+            <img src="https://www.scumdb.com/wp-content/uploads/2020/09/Scum-gas-stations-map-1.png" alt="Scum Gas Station Locations Map - All Scum Location Maps" jsname="HiaYvf" jsaction="load:XAeZkd;" class="n3VNCb" data-noaft="1" style="width: 383px; height: 414.917px; margin: 0px;">
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>Scum is multiplayer online survival game,developed by Croatian studio Gamepires, available under the Steam Early Access program.
+               <br> The game is described as a "prison riot survival game" and will feature an open world.
+            </p>
+        </div>
+
+        <div class="w3-row-padding w3-grayscale">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="https://pbs.twimg.com/profile_images/937005974359101440/w8qQzJFW_400x400.jpg" alt="TheRealFaZeModz" style="width:300px;height:350px;">
+                <h3>FaZe Modz</h3>
+                <p class="w3-opacity">admin and Founder of the playground</p>
+                <p>add a bio.</p>
+                <a href="https://discord.com/channels/@me/460275964245573653" title="discord " target="_blank"
+                class="w3-hover-text-green"><button class="w3-button w3-light-grey w3-block">Contact</button></a>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <img src="https://www.backgroundscool.com/wp-content/uploads/2019/04/crop-21-24.jpg" alt="Sword Art Online wallpapers – Cool Backgrounds" style="width:300px;height:350px;">
+                <h3>Risky </h3>
+                <p class="w3-opacity">admin of the playground</p>
+                <p>add a bio.</p>
+                <a href="https://discord.com/channels/@me/676903964301852711" title="discord " target="_blank"
+                class="w3-hover-text-green"><button class="w3-button w3-light-grey w3-block">Contact</button></a>
+            </div>
+
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch and talk about the next project.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+    <!--This Footer goes to FullTimeModding Discord -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>Powered by <a href="https://discord.gg/28nEmjAu" title="discord " target="_blank"
+                class="w3-hover-text-green">FullTimeModding</a></p>
+    </footer>
+
+</body>
+
+</html>
